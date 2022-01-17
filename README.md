@@ -3,16 +3,16 @@
 ## Overview
 This assignment demonstrated how time complexity of each sorting algorithms behaves in relation to the amount of inputs(n). By calculating the amount of time spent on sorting incremented amount of random integers into each sorting algorithms, I was able to obtain a graphical relationship between numbers of input and the amount of time it used to complete each sorting task. 
 
-    ![image](https://user-images.githubusercontent.com/84875731/149720562-ff102ec6-ffc1-4c38-af25-021435651e15.png)
+![image](https://user-images.githubusercontent.com/84875731/149720562-ff102ec6-ffc1-4c38-af25-021435651e15.png)
 
 ## Implementation
 This demonstration compares 4 of the common sorting algorithms: insertionSort, mergeSort, quickSort, and heapSort. Each sorting algorithm will be sorting 10,000 random integers with an incrementation of 10,000 more random integers 10 times.
 
-    ![image](https://user-images.githubusercontent.com/84875731/149721717-f25bde03-1dd0-44cc-9f5a-4030ca228a94.png)
+![image](https://user-images.githubusercontent.com/84875731/149721717-f25bde03-1dd0-44cc-9f5a-4030ca228a94.png)
     
 To ensure each sorting algorithm are getting the same set of random numbers in each increment, deep copies of random integer array were implemented
 
-    ![image](https://user-images.githubusercontent.com/84875731/149714345-f8596480-f49d-4b20-bc86-4ebd6783c230.png)
+![image](https://user-images.githubusercontent.com/84875731/149714345-f8596480-f49d-4b20-bc86-4ebd6783c230.png)
 
 The amount of time each algorithms used was conducted by subtracting the ending System.currentTimeMillis() and starting System.currentTimeMillis(). As result, I am able to obtain the amount of time each sorting algorithms spent and be able to visualize each algorithms' time complexities through the graph.
 
