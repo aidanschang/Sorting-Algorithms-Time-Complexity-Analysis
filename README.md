@@ -9,7 +9,7 @@ This assignment demonstrated how time complexity of each sorting algorithms beha
 This demonstration compares 4 of the common sorting algorithms: insertionSort, mergeSort, quickSort, and heapSort. Each sorting algorithm will be sorting 10,000 random integers with an incrementation of 10,000 more random integers 10 times.
 
     ![image](https://user-images.githubusercontent.com/84875731/149721717-f25bde03-1dd0-44cc-9f5a-4030ca228a94.png)
-
+    
 To ensure each sorting algorithm are getting the same set of random numbers in each increment, deep copies of random integer array were implemented
 
     ![image](https://user-images.githubusercontent.com/84875731/149714345-f8596480-f49d-4b20-bc86-4ebd6783c230.png)
