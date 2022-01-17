@@ -1,4 +1,4 @@
-# sorting-time-complexity-analysis
+# sortingAlgorithms-time-complexity-analysis
 
 ## Overview
 This assignment demonstrated how time complexity of each sorting algorithms behaves in relation to the amount of inputs(n). By calculating the amount of time spent on sorting incremented amount of random integers into each sorting algorithms, I was able to obtain a graphical relationship between numbers of input and the amount of time it used to complete each sorting task. 
