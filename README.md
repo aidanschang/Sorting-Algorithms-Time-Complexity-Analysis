@@ -14,6 +14,6 @@ The amount of time each algorithms used was conducted by subtracting the ending 
 
 ## Observation
 
-#^  hale
+1. hale
 
 
