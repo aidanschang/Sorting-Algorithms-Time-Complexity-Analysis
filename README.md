@@ -3,6 +3,8 @@
 ## Overview
 This assignment demonstrated how each sorting algorithms' time complexity behaves in relation to the amount of input(n). By calculating the amount of time spent on sorting incremented amount of random integers into each sorting algorithms, I was able to obtain a graphical relationship between numbers of input and the amount of time it used to complete each sorting task. 
 
+![image](https://user-images.githubusercontent.com/84875731/149720501-3ff79a57-df2d-4ca5-b11a-29989fe3d021.png)
+
 ## Implementation
 This demonstration compares 4 of the common sorting algorithms: insertionSort, mergeSort, quickSort, and heapSort. Each sorting algorithms will be sorting 10,000 random integers with incrementation of 10,000 more random integers for 10 times.
 
@@ -14,6 +16,6 @@ The amount of time each algorithms used was conducted by subtracting the ending 
 
 ## Observation
 
-1. hale
+1. I have noticed that there was an unusual spike on the mergeSort duirng the second round(20,000). After extensive research on what might have caused the spike, I tried to put a warmup dummy at the very beginning of the program and that spike reduced from average of 17 mili seconds to average of 10 miliseconds. Although the 
 
 
