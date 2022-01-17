@@ -18,7 +18,7 @@ The amount of time each algorithms used was conducted by subtracting the ending 
 
 1. I have noticed that there was an unusual spike on the mergeSort during the second round(20,000). After extensive research on what might have caused the spike, I tried to put a warmup dummy at the very beginning of the program, and that spike reduced from an average of 17 milliseconds to an average of 10 milliseconds.
 
-  ![image](https://user-images.githubusercontent.com/84875731/149720649-231a8843-0ca7-4363-99d7-32eec712ac86.png)
+    ![image](https://user-images.githubusercontent.com/84875731/149720649-231a8843-0ca7-4363-99d7-32eec712ac86.png)
 
 2. Based on my research, quickSort has better locality than the merge sort because merge sort is not an in-place sorting algorithm. Hence, quickSort will be a little faster than the merge sort.
 
