@@ -12,7 +12,7 @@ To ensure each sorting algorithms are getting the same set of random nubmers in 
 
 The amount of time each algorithms used was conducted by subtracting the ending System.currentTimeMillis() and starting System.currentTimeMillis().
 
-![image](https://user-images.githubusercontent.com/84875731/149714711-9a12d6ac-2c62-4f3f-a441-e7e334cea5e4.png)
+![image](https://user-images.githubusercontent.com/84875731/149714828-a8b42822-b818-4c45-b967-eb76e8dc0447.png)
 
 
 
