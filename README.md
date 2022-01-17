@@ -10,9 +10,10 @@ To ensure each sorting algorithms are getting the same set of random nubmers in 
 
 ![image](https://user-images.githubusercontent.com/84875731/149714345-f8596480-f49d-4b20-bc86-4ebd6783c230.png)
 
-The amount of time each algorithms used was conducted by subtracting the ending System.currentTimeMillis() and starting System.currentTimeMillis().
+The amount of time each algorithms used was conducted by subtracting the ending System.currentTimeMillis() and starting System.currentTimeMillis(). As result, I am able to obtain the amount of time each sorting algorithms spent and be able to visualized each algorithms' time complexities through graph.
 
-![image](https://user-images.githubusercontent.com/84875731/149714828-a8b42822-b818-4c45-b967-eb76e8dc0447.png)
+## Observation
 
+#^  hale
 
 
