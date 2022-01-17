@@ -8,11 +8,11 @@ This demonstration compares 4 of the common sorting algorithms: insertionSort, m
 
 To ensure each sorting algorithms are getting the same set of random nubmers in each increments, deep copies of random integer array were implemented
 
-    ![image](https://user-images.githubusercontent.com/84875731/149714345-f8596480-f49d-4b20-bc86-4ebd6783c230.png)
+![image](https://user-images.githubusercontent.com/84875731/149714345-f8596480-f49d-4b20-bc86-4ebd6783c230.png)
 
 The amount of time each algorithms used was conducted by subtracting the ending System.currentTimeMillis() and starting System.currentTimeMillis().
 
-    ![image](https://user-images.githubusercontent.com/84875731/149714711-9a12d6ac-2c62-4f3f-a441-e7e334cea5e4.png)
+![image](https://user-images.githubusercontent.com/84875731/149714711-9a12d6ac-2c62-4f3f-a441-e7e334cea5e4.png)
 
 
 
