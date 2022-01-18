@@ -20,6 +20,8 @@ This assignment demonstrated how time complexity of each sorting algorithms beha
 
 1. While insertionSort runs at O(n^2), the rest three are running at O(nlogn).
 2. I have noticed that there was an unusual spike on the mergeSort during the second round(20,000). After extensive research on what might have caused the spike, I tried to put a  warmup dummy at the very beginning of the program, and that spike reduced from an average of 17 milliseconds to an average of 10 milliseconds.
+
 ![image](https://user-images.githubusercontent.com/84875731/149720649-231a8843-0ca7-4363-99d7-32eec712ac86.png)
+
 3. Based on my research, quickSort has better locality than the merge sort because merge sort is not an in-place sorting algorithm. Hence, quickSort will be a little faster than the merge sort.
 4. I was conducting an experiment for the worst time complexity for quickSort which is O(n^2), when the parameter array is already been sorted. So I placed a sorted array within the quickSort parameter and got a StackOverflow error when the inputs are at 20,000. 
