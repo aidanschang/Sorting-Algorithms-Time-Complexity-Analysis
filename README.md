@@ -23,5 +23,5 @@ This assignment demonstrated how time complexity of each sorting algorithms beha
 
   ![image](https://user-images.githubusercontent.com/84875731/149720649-231a8843-0ca7-4363-99d7-32eec712ac86.png)
 
-3. Based on my research, quickSort has better locality than the merge sort because merge sort is not an in-place sorting algorithm. Hence, quickSort will be a little faster than the merge sort.
+3. Quick sort and merge sort are both recursive sorts but quickSort has better locality than the merge sort because merge sort is not an in-place sorting algorithm. Hence, quickSort will be a little faster than the merge sort.
 4. I was conducting an experiment for the worst time complexity for quickSort which is O(n^2), when the parameter array is already been sorted. So I placed a sorted array within the quickSort parameter and got a StackOverflow error when the inputs are at 20,000. 
